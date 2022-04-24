@@ -1,4 +1,5 @@
 import os
+import shutil
 import scipy.io as sio
 import yaml
 import numpy as np
@@ -7,6 +8,12 @@ import argparse
 from os.path import join as pjoin
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
+
+
+def setDir():
+    filepath = 'dataset/split_dataset'
+    if not os.path.isdir(filepath):
+        os.makedirs(filepath)
 
 
 def random_unison(a, b, c, rstate=None):
@@ -171,6 +178,7 @@ if __name__ == '__main__':
     # print("y_val shape:", y_val.shape)
     # print("y_test shape:", y_test.shape)
 
+    setDir()
     fix_data_path = 'dataset/split_dataset/'
 
     # save each dataset and testSet position；
@@ -182,7 +190,4 @@ if __name__ == '__main__':
     np.save(pjoin(fix_data_path + "y_val.npy"), y_val)
     np.save(pjoin(fix_data_path + "y_test.npy"), y_test)
     print("creat dataset over!")
-
-
-
 
