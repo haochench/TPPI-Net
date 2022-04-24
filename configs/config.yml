@@ -1,0 +1,31 @@
+run_ID: ACC_IP
+GPU:
+model: 'HybridSN'
+data:
+    dataset: 'IP'
+    num_components:
+    PPsize: 5
+    remove_zeros: true
+    tr_percent: 0.10
+    val_percent: 0.10
+    rand_state: 60
+train:
+    epochs: 200
+    batch_size: 100
+    val_interval: 1
+    n_workers: 1
+    print_interval: 1
+    optimizer:
+        name: 'sgd'
+        lr: 0.01
+        weight_decay: 0.0001
+        momentum: 0.9
+    loss:
+        name: 'cross_entropy'
+    lr_schedule:
+    continue_path: continue/continue_training.pkl
+    best_model_path: best_model.pth.tar
+test:
+    batch_size: 100
+prediction:
+     batch_size: 40
