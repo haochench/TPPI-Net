@@ -42,16 +42,29 @@ If you find this code useful in your research, please consider citing:
       2. source code: https://github.com/zilongzhong/SSRN
 ## Usage
 ### Setup config file
+```
 Modify ‘configs/config.yml’
-
+```
 ### Data set preparation
-'python create_dataset.py'
+
+```
+python create_dataset.py
+```
 
 ### Training
-'python train.py'
+
+```
+python train.py
+```
 
 ### Evaluation
-* For TPPI-Nets, run: 'python TPPI_predict.py'
-* For TPPP-Nets, run: 'python TPPP_predict.py'
+For TPPI-Nets, run: 
+```
+python TPPI_predict.py
+```
+For TPPP-Nets, run: 
+```
+python TPPP_predict.py
+```
 
 
