@@ -6,6 +6,7 @@ Official implementation of TPPI-Net and **Unofficial** implementation of Others.
 
 **Contact**: chenhao1@stu.scu.edu.cn  or  994161476@qq.com
 
+
 If you find this code useful in your research, please consider citing:
 ```
 TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification.  // This paper has been conditionally accepted for publication (waiting for final editing).
@@ -35,20 +36,23 @@ Sun, H., Zheng, X., Lu, X., & Wu, S. (2020). Spectral-Spatial Attention Network 
 ```
 
 
-**Implemented networks including**:
-TPPI-Net
+## Implemented networks
 
-TPPP-Nets (**I modified them slightly to make them have higher classification accuracy. If you are interested in these models, please refer to their official implementations**):
+**TPPI-Net**
+
+**TPPP-Nets** 
+(Notice: I modified them slightly to make them have higher classification accuracy. If you are interested in these models, please refer to their official implementations):
+
 1. 1D CNN:
    source code: I can't find it -.- 
       
 2. 2D CNN:
-   1. source code of paper1: -.-
-   2. 2. source code of paper2: -.-
+   source code of paper1: -.-
+   source code of paper2: -.-
  
 3. 3D CNN:
-   1. source code of paper1: https://github.com/AminaBh/3D_deepLearning_for_hyperspectral_images
-   2. source code of paper2: -.-
+   source code of paper1: https://github.com/AminaBh/3D_deepLearning_for_hyperspectral_images
+   source code of paper2: -.-
    
 4. HybridSN: 
    source code: https://github.com/gokriznastic/HybridSN
