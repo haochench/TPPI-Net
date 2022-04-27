@@ -1,16 +1,16 @@
 # PyTorch-Hyperspectral image classification
 ## Introduction
-This repository is a PyTorch implementation for hyperspectral image classification.
+This repository is a PyTorch implementation for hyperspectral image classification. Official implementation of TPPI-Net and **Unofficial** implementation of Others.
 
-Official implementation of TPPI-Net and **Unofficial** implementation of Others.
+**TPPI-Net**
+paper: ***TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification.***  
+// This paper has been accepted by Photogrammetric Engineering & Remote Sensing and in the queue for publishing.
 
 **Contact**: chenhao1@stu.scu.edu.cn  or  994161476@qq.com
 
 
 If you find this code useful in your research, please consider citing:
 ```
-TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification.  // This paper has been conditionally accepted for publication (waiting for final editing).
-
 1D CNN:
 Chen, Y., Jiang, H., Li, C., Jia, X., & Ghamisi, P. (2016). Deep Feature Extraction and Classification of Hyperspectral Images Based on Convolutional Neural Networks. IEEE Transactions on Geoscience and Remote Sensing, 54(10), 6232–6251. https://doi.org/10.1109/TGRS.2016.2584107
 
