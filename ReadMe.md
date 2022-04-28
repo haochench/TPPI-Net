@@ -6,7 +6,7 @@ This repository is a PyTorch implementation for hyperspectral image classificati
 paper: ***TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification.***  
 // This paper has been accepted by Photogrammetric Engineering & Remote Sensing and in the queue for publishing.
 
-**Contact**: chenhao1@stu.scu.edu.cn
+**Contact me**: chenhao1@stu.scu.edu.cn
 
 
 If you find this code useful in your research, please consider citing:
