@@ -10,7 +10,6 @@ paper: ***TPPI: A Novel Network Framework and Model for Efficient Hyperspectral 
 
 
 If you find this code useful in your research, please consider citing:
-```
 1D CNN:
 Chen, Y., Jiang, H., Li, C., Jia, X., & Ghamisi, P. (2016). Deep Feature Extraction and Classification of Hyperspectral Images Based on Convolutional Neural Networks. IEEE Transactions on Geoscience and Remote Sensing, 54(10), 6232–6251. https://doi.org/10.1109/TGRS.2016.2584107
 
@@ -33,7 +32,6 @@ Paoletti, M. E., Haut, J. M., Fernandez-Beltran, R., Plaza, J., Plaza, A. J., & 
 
 SSAN:
 Sun, H., Zheng, X., Lu, X., & Wu, S. (2020). Spectral-Spatial Attention Network for Hyperspectral Image Classification. IEEE Transactions on Geoscience and Remote Sensing, 58(5), 3232–3245. https://doi.org/10.1109/TGRS.2019.2951160
-```
 
 
 ## Implemented networks
