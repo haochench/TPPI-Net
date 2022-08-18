@@ -1,15 +1,18 @@
 # TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification.
 ## Introduction
-This repository is a PyTorch implementation for hyperspectral image classification. Official implementation of TPPI-Net and **Unofficial** implementation of Others.
+This repository is a PyTorch implementation for hyperspectral image classification. **Official implementation of TPPI-Net** and Unofficial implementation of Others.
 
-**TPPI-Net**
-paper: ***TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification.***  
-link:https://www.ingentaconnect.com/contentone/asprs/pers/2022/00000088/00000008/art00012
+***TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification.***  
+Download: https://www.ingentaconnect.com/contentone/asprs/pers/2022/00000088/00000008/art00012
 
-**Contact me**: chenhao1@stu.scu.edu.cn
+**Contact me**: 
+```
+chenhao1@stu.scu.edu.cn
+```
 
+**If you find this code useful in your research, please consider citing**:
 
-If you find this code useful in your research, please consider citing:
+```
 @article{chen2022tppi,
   title={TPPI: A Novel Network Framework and Model for Efficient Hyperspectral Image Classification},
   author={Chen, Hao and Li, Xiaohua and Zhou, Jiliu and Wang, Yuan},
@@ -20,6 +23,7 @@ If you find this code useful in your research, please consider citing:
   year={2022},
   publisher={American Society for Photogrammetry and Remote Sensing}
 }
+```
 
 **1D CNN**:
 
