@@ -7,7 +7,7 @@ Download: https://www.ingentaconnect.com/contentone/asprs/pers/2022/00000088/000
 
 **Contact me**: 
 ```
-chenhao1@stu.scu.edu.cn
+chenhao@alu.scu.edu.cn
 ```
 
 **If you find this code useful in your research, please consider citing**:
